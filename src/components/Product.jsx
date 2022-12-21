@@ -92,7 +92,7 @@ function Product() {
 			<div className="row">
 				<div className="col-lg-6">
 					<div className="product-pic-zoom">
-						<img className="product-big-img" src="img/single-product/1.jpg" alt=""/>
+						<img className="product-big-img" src="img\product\drill.png" alt=""/>
 					</div>
 					<div className="product-thumbs" tabIndex="1" >
 						<div className="product-thumbs-track">
@@ -146,7 +146,7 @@ function Product() {
 					</div>
 					<div className="quantity">
 						<p>Quantity</p>
-                        <div className="pro-qty"><input type="text" /></div>
+                        <div className="pro-qty"><input type="text"/></div>
                     </div>
 					<a href="#" className="site-btn">SHOP NOW</a>
 					<div id="accordion" className="accordion-area">
@@ -202,7 +202,7 @@ function Product() {
 	<section className="related-product-section">
 		<div className="container">
 			<div className="section-title">
-				<h2>RELATED PRODUCTS</h2>
+				{/* <h2>RELATED PRODUCTS</h2> */}
 			</div>
 			<div className="product-slider owl-carousel">
 				<div className="product-item">
