@@ -133,7 +133,7 @@ ol {
 	padding: 18px 47px 14px;
 	border-radius: 50px;
 	text-transform: uppercase;
-	background: #f51167;
+	background: #4211f5;
 	color: #fff;
 	line-height: normal;
 	cursor: pointer;
@@ -355,6 +355,7 @@ ol {
 	border: none;
 	padding: 0 19px;
 	background: #f0f0f0;
+	margin-top: 30px;
 }
 
 .header-search-form button {
@@ -367,6 +368,7 @@ ol {
 	border: none;
 	cursor: pointer;
 	background-color: transparent;
+	margin-top: 17px;
 }
 
 .user-panel .up-item {
@@ -490,7 +492,7 @@ ol {
 }
 
 .main-menu .sub-menu li a:hover {
-	color: #f51167;
+	color: #c51c1c;
 }
 
 .nav-switch {
@@ -1084,6 +1086,11 @@ ol {
 	overflow: hidden;
 }
 
+.row-footer{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
 .fw-latest-post-widget .lp-thumb {
 	width: 64px;
 	height: 64px;
@@ -1123,6 +1130,7 @@ ol {
 	margin-right: 15px;
 	overflow: hidden;
 }
+
 
 .social-links-warp {
 	border-top: 2px solid #3b3535;

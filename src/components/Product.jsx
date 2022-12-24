@@ -13,12 +13,12 @@ function Product() {
 					<div className="col-lg-2 text-center text-lg-left">
 
 						<a href="./index.html" className="site-logo">
-							<img src="img/logo.png" alt=""/>
+							<img src="img/icons/logo.png" alt=""/>
 						</a>
 					</div>
 					<div className="col-xl-6 col-lg-5">
 						<form className="header-search-form">
-							<input type="text" placeholder="Search on divisima ...."/>
+							<input type="text" placeholder="Search on True Craft ...."/>
 							<button><i className="flaticon-search"></i></button>
 						</form>
 					</div>
@@ -26,14 +26,14 @@ function Product() {
 						<div className="user-panel">
 							<div className="up-item">
 								<i className="flaticon-profile"></i>
-								<a href="#">Sign</a> In or <a href="#">Create Account</a>
+								<a href="#">Войти</a> или <a href="#">Зарегестрироваться</a>
 							</div>
 							<div className="up-item">
 								<div className="shopping-card">
 									<i className="flaticon-bag"></i>
 									<span>0</span>
 								</div>
-								<a href="#">Shopping Cart</a>
+								<a href="#">Корзина</a>
 							</div>
 						</div>
 					</div>
@@ -45,27 +45,10 @@ function Product() {
 
 				<ul className="main-menu">
 					<li><a href="#">Home</a></li>
-					<li><a href="#">Women</a></li>
-					<li><a href="#">Men</a></li>
-					<li><a href="#">Jewelry
-						<span className="new">New</span>
-					</a></li>
-					<li><a href="#">Shoes</a>
-						<ul className="sub-menu">
-							<li><a href="#">Sneakers</a></li>
-							<li><a href="#">Sandals</a></li>
-							<li><a href="#">Formal Shoes</a></li>
-							<li><a href="#">Boots</a></li>
-							<li><a href="#">Flip Flops</a></li>
-						</ul>
-					</li>
 					<li><a href="#">Pages</a>
 						<ul className="sub-menu">
 							<li><a href="./product.html">Product Page</a></li>
-							<li><a href="./category.html">Category Page</a></li>
-							<li><a href="./cart.html">Cart Page</a></li>
-							<li><a href="./checkout.html">Checkout Page</a></li>
-							<li><a href="./contact.html">Contact Page</a></li>
+							<li><a href="./cart.html">Корзина</a></li>
 						</ul>
 					</li>
 					<li><a href="#">Blog</a></li>
@@ -78,8 +61,8 @@ function Product() {
 		<div className="container">
 			<h4>Category PAge</h4>
 			<div className="site-pagination">
-				<a href="">Home</a> /
-				<a href="">Shop</a>
+				<a href="">Главная</a> /
+				<a href="">Магазин</a>
 			</div>
 		</div>
 	</div>
@@ -104,9 +87,9 @@ function Product() {
 					</div>
 				</div>
 				<div className="col-lg-6 product-details">
-					<h2 className="p-title">White peplum top</h2>
-					<h3 className="p-price">$39.90</h3>
-					<h4 className="p-stock">Available: <span>In Stock</span></h4>
+					<h2 className="p-title">Дрель</h2>
+					<h3 className="p-price">1045 руб.</h3>
+					<h4 className="p-stock">Доступно: <span>В Наличии</span></h4>
 					<div className="p-rating">
 						<i className="fa fa-star-o"></i>
 						<i className="fa fa-star-o"></i>
@@ -115,40 +98,13 @@ function Product() {
 						<i className="fa fa-star-o fa-fade"></i>
 					</div>
 					<div className="p-review">
-						<a href="">3 reviews</a>|<a href="">Add your review</a>
-					</div>
-					<div className="fw-size-choose">
-						<p>Size</p>
-						<div className="sc-item">
-							<input type="radio" name="sc" id="xs-size"/>
-							<label htmlFor="xs-size">32</label>
-						</div>
-						<div className="sc-item">
-							<input type="radio" name="sc" id="s-size"/>
-							<label htmlFor="s-size">34</label>
-						</div>
-						<div className="sc-item">
-							<input type="radio" name="sc" id="m-size" />
-							<label htmlFor="m-size">36</label>
-						</div>
-						<div className="sc-item">
-							<input type="radio" name="sc" id="l-size"/>
-							<label htmlFor="l-size">38</label>
-						</div>
-						<div className="sc-item disable">
-							<input type="radio" name="sc" id="xl-size" disabled/>
-							<label htmlFor="xl-size">40</label>
-						</div>
-						<div className="sc-item">
-							<input type="radio" name="sc" id="xxl-size"/>
-							<label htmlFor="xxl-size">42</label>
-						</div>
+						<a href="">3 reviews</a>|<a href="">Добавьте свой отзыв</a>
 					</div>
 					<div className="quantity">
 						<p>Quantity</p>
                         <div className="pro-qty"><input type="text"/></div>
                     </div>
-					<a href="#" className="site-btn">SHOP NOW</a>
+					<a href="#" className="site-btn">КУПИ!</a>
 					<div id="accordion" className="accordion-area">
 						<div className="panel">
 							<div className="panel-header" id="headingOne">
@@ -201,15 +157,12 @@ function Product() {
 
 	<section className="related-product-section">
 		<div className="container">
-			<div className="section-title">
-				{/* <h2>RELATED PRODUCTS</h2> */}
-			</div>
 			<div className="product-slider owl-carousel">
 				<div className="product-item">
 					<div className="pi-pic">
 						<img src="./img/product/1.jpg" alt=""/>
 						<div className="pi-links">
-							<a href="#" className="add-card"><i className="flaticon-bag"></i><span>ADD TO CART</span></a>
+							<a href="#" className="add-card"><i className="flaticon-bag"></i><span>ДОБАВИТЬ В КОРЗИНУ</span></a>
 							<a href="#" className="wishlist-btn"><i className="flaticon-heart"></i></a>
 						</div>
 					</div>
@@ -223,7 +176,7 @@ function Product() {
 						<div className="tag-new">New</div>
 						<img src="./img/product/2.jpg" alt=""/>
 						<div className="pi-links">
-							<a href="#" className="add-card"><i className="flaticon-bag"></i><span>ADD TO CART</span></a>
+							<a href="#" className="add-card"><i className="flaticon-bag"></i><span>ДОБАВИТЬ В КОРЗИНУ</span></a>
 							<a href="#" className="wishlist-btn"><i className="flaticon-heart"></i></a>
 						</div>
 					</div>
@@ -277,10 +230,7 @@ function Product() {
 
 	<section className="footer-section">
 		<div className="container">
-			<div className="footer-logo text-center">
-				<a href="index.html"><img src="./img/logo-light.png" alt=""/></a>
-			</div>
-			<div className="row">
+			<div className="row row-footer">
 				<div className="col-lg-3 col-sm-6">
 					<div className="footer-widget about-widget">
 						<h2>About</h2>
@@ -288,49 +238,7 @@ function Product() {
 						<img src="img/cards.png" alt=""/>
 					</div>
 				</div>
-				<div className="col-lg-3 col-sm-6">
-					<div className="footer-widget about-widget">
-						<h2>Questions</h2>
-						<ul>
-							<li><a href="">About Us</a></li>
-							<li><a href="">Track Orders</a></li>
-							<li><a href="">Returns</a></li>
-							<li><a href="">Jobs</a></li>
-							<li><a href="">Shipping</a></li>
-							<li><a href="">Blog</a></li>
-						</ul>
-						<ul>
-							<li><a href="">Partners</a></li>
-							<li><a href="">Bloggers</a></li>
-							<li><a href="">Support</a></li>
-							<li><a href="">Terms of Use</a></li>
-							<li><a href="">Press</a></li>
-						</ul>
-					</div>
-				</div>
-				<div className="col-lg-3 col-sm-6">
-					<div className="footer-widget about-widget">
-						<h2>Questions</h2>
-						<div className="fw-latest-post-widget">
-							<div className="lp-item">
-								<div className="lp-thumb set-bg" data-setbg="img/blog-thumbs/1.jpg"></div>
-								<div className="lp-content">
-									<h6>what shoes to wear</h6>
-									<span>Oct 21, 2018</span>
-									<a href="#" className="readmore">Read More</a>
-								</div>
-							</div>
-							<div className="lp-item">
-								<div className="lp-thumb set-bg" data-setbg="img/blog-thumbs/2.jpg"></div>
-								<div className="lp-content">
-									<h6>trends this year</h6>
-									<span>Oct 21, 2018</span>
-									<a href="#" className="readmore">Read More</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				
 				<div className="col-lg-3 col-sm-6">
 					<div className="footer-widget contact-widget">
 						<h2>Questions</h2>
