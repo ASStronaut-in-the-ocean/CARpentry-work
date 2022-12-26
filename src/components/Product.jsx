@@ -4,6 +4,7 @@ import React from 'react';
 
 
 function Product() {
+
   return (
       <div>
         <header className="header-section">
@@ -30,7 +31,7 @@ function Product() {
 							</div>
 							<div className="up-item">
 								<div className="shopping-card">
-									<i className="flaticon-bag"></i>
+									<img src="img/tool-box.png" />
 									<span>0</span>
 								</div>
 								<a href="#">Корзина</a>
@@ -44,14 +45,14 @@ function Product() {
 			<div className="container">
 
 				<ul className="main-menu">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Pages</a>
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Страницы</a>
 						<ul className="sub-menu">
-							<li><a href="./product.html">Product Page</a></li>
+							<li><a href="./product.html">Товары</a></li>
 							<li><a href="./cart.html">Корзина</a></li>
 						</ul>
 					</li>
-					<li><a href="#">Blog</a></li>
+					{/* <li><a href="#">Blog</a></li> */}
 				</ul>
 			</div>
 		</nav>
@@ -70,7 +71,7 @@ function Product() {
 	<section className="product-section">
 		<div className="container">
 			<div className="back-link">
-				<a href="./category.html"> &lt;&lt; Back to Category</a>
+				<a href="./category.html"> &lt;&lt; Назад к категориям</a>
 			</div>
 			<div className="row">
 				<div className="col-lg-6">
@@ -98,7 +99,7 @@ function Product() {
 						<i className="fa fa-star-o fa-fade"></i>
 					</div>
 					<div className="p-review">
-						<a href="">3 reviews</a>|<a href="">Добавьте свой отзыв</a>
+						<a href="">3 отзыва</a>|<a href="">Добавьте свой отзыв</a>
 					</div>
 					<div className="quantity">
 						<p>Quantity</p>
