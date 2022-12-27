@@ -1,10 +1,9 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 
 
 
 function Product() {
-
   return (
       <div>
         <header className="header-section">
@@ -62,7 +61,7 @@ function Product() {
 		<div className="container">
 			<h4>Category PAge</h4>
 			<div className="site-pagination">
-				<a href="">Главная</a> /
+				<a href="">Главная</a> 
 				<a href="">Магазин</a>
 			</div>
 		</div>
@@ -80,8 +79,8 @@ function Product() {
 					</div>
 					<div className="product-thumbs" tabIndex="1" >
 						<div className="product-thumbs-track">
-							<div className="pt active" data-imgbigurl="img/single-product/1.jpg"><img src="img\product\drill.png" alt=""/></div>
-							<div className="pt" data-imgbigurl="img/single-product/2.jpg"><img src="img\product\drill1.png" alt=""/></div>
+							<div className="pt active" data-imgbigurl="img/product/drill.png"><img src="img\product\drill.png" alt=""/></div>
+							<div className="pt" data-imgbigurl="img/product/drill1.png"><img src="img\product\drill1.png" alt=""/></div>
 							<div className="pt" data-imgbigurl="img/single-product/3.jpg"><img src="img/single-product/thumb-3.jpg" alt=""/></div>
 							<div className="pt" data-imgbigurl="img/single-product/4.jpg"><img src="img/single-product/thumb-4.jpg" alt=""/></div>
 						</div>
