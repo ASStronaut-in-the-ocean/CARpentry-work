@@ -61,7 +61,7 @@ function Product() {
 		<div className="container">
 			<h4>Category PAge</h4>
 			<div className="site-pagination">
-				<a href="">Главная</a> 
+				<a href="">Главная</a>/ 
 				<a href="">Магазин</a>
 			</div>
 		</div>
